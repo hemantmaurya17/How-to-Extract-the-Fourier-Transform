@@ -1,0 +1,24 @@
+-->  os.path.join()
+Ye Python ka function hai jo safe tarike se 2 ya usse zyada paths ko jodta hai.
+Yaani: directory + filename ko correct format me combine karta hai.
+
+-->  np.fft.fft() | Code Line       | Formula Used                            | Description                         |                        |                                           |
+| --------------- | --------------------------------------- | ----------------------------------- | ---------------------- | ----------------------------------------- |
+| `np.fft.fft()`  | DFT: $X[k] = \sum x[n] e^{-j2\pi kn/N}$ | Converts signal to frequency domain |                        |                                           |
+| `np.abs()`      | (                                       | X\[k]                               | = \sqrt{Re^2 + Im^2} ) | Computes magnitude of frequency component |
+| `np.linspace()` | $f_k = \frac{k \cdot sr}{N}$            | X-axis = Frequency in Hz            |                        |                                           |
+| `magnitude[0]`  | $X[0] = \sum x[n]$                      | DC component = average amplitude    |                        |                                           |
+
+
+
+Fast Fourier Transform (FFT) — jo time domain signal ko frequency domain me convert karta hai.
+
+4 imp formula 
+Fourier Transform (FFT)
+
+Magnitude Calculation of FFT
+
+Frequency Resolution Formula
+
+DC Component Calculation
+
